@@ -1,0 +1,61 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Great Vibes', cursive;
+    background: url('galaxy-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container, .upload-container, .profiles-container {
+    background-color: rgba(255, 192, 203, 0.8); /* pastel pink with some transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.welcome-text, .upload-text {
+    color: white;
+    font-size: 2em;
+}
+
+.roll-button, .explore-button {
+    background-color: white;
+    color: black;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.2em;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.roll-button:hover, .explore-button:hover {
+    background-color: lightgray;
+}
+
+.profile-tab {
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+.profile-tab:hover {
+    background-color: darkblue;
+}
+
+.profile-content {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
