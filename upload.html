@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Your Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="upload-container">
+        <h1 class="upload-text">Upload Your Profile</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <label for="profile-pic">Profile Picture:</label>
+            <input type="file" id="profile-pic" name="profile-pic" accept="image/*" required><br><br>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="bio">Bio:</label>
+            <textarea id="bio" name="bio" rows="4" required></textarea><br><br>
+            <label for="images">Upload Images (up to 5):</label>
+            <input type="file" id="images" name="images" accept="image/*" multiple required><br><br>
+            <button class="explore-button" type="submit">Explore New York</button>
+        </form>
+    </div>
+</body>
+</html>
